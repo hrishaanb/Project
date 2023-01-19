@@ -1,0 +1,48 @@
+#warn {
+    color : red;
+}
+#Uhh {
+    color : red;
+}
+body {
+    background-color : rgb(81, 227, 219)
+}
+.copy_right_footer {
+    position : fixed;
+    bottom : 0;
+    width : 100%;
+    text-align : center;
+    background-color : lightgray;
+}
+h1 {
+    font-family :'Times New Roman', Times, serif;
+}
+#camera {
+    width : 500px;
+    height : 400px;
+    border-color : black;
+}
+#res1Img {
+    box-shadow : 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+    width : 500px;
+    height : 400px;
+    border-color : black;
+    border-radius : 10px;
+    border-width : 20px;
+}
+#res2Img {
+    box-shadow : 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+    width : 500px;
+    height : 400px;
+    border-color : black;
+    border-radius : 10px;
+    border-width : 20px;
+}
+#res3Img {
+    box-shadow : 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+    width : 500px;
+    height : 400px;
+    border-color : black;
+    border-radius : 10px;
+    border-width : 20px;
+}

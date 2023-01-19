@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <textarea class="form-control" id="textbox" readonly="true" style="visibility:hidden;"></textarea>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body id="background">
+    <center>
+        <h1 id="title">Collage Web App</h1>
+        <hr>
+        <h4 id="warn">Please click allow once the popup comes. Then you can speak a command</h4>
+        <h3 id="info"> Say "take a selfie" to have the computer take a selfie of you and start making a collage</h3>
+        <br>
+        <br>
+        <br>
+        <button id="start" class="btn btn-primary" onclick="start()">Start</button>
+        <br>
+        <br>
+        <h4 id="Uhh">Press the button to start</h4>
+        <br>
+        <label>This is your webcam : </label>
+        <br>
+        <br>
+        <div id="webcam"></div>
+        <br>
+        <br>
+        <label>Your selfies will be displayed here : </label>
+        <br>
+        <br>
+        <div id="resultShow">
+            <div id="result1">
+                <img id="res1Img" style="width:30%">
+            </div>
+            <br>
+            <br>
+            <div id="result2">
+                <img id="res2Img" style="width:30%">
+            </div>
+            <br>
+            <br>
+            <div id="result3">
+                <img id="res3Img" style="width:30%">
+            </div>
+        </div>
+    </center>
+    <br>
+    <br>
+    <div class="copy_right_footer">Created by - Hrishaan</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
